@@ -100,6 +100,9 @@ latest courses style
     width: 224px;
     height: 104px;
 }
+.course-author{
+    color: red;
+}
 .cousre-info{
     display: flex;
     align-items: center;
@@ -117,9 +120,13 @@ latest courses style
 .course-duration{
     background-color: #FFE4E8;
     border-radius: 14.6913px;
-    margin-right: 22px;
     Width:94.83px;
     Height: 29.38px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+
 }
 /* ----------------
 Media Queryes
@@ -137,6 +144,9 @@ Media Queryes
     .player, .blogs, .courses{
         flex-direction: column;
     } 
+    .courses{
+        grid-gap: 50px;
+    }
 }
 
 
